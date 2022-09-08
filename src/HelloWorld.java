@@ -10,5 +10,9 @@ public class HelloWorld {
         System.out.println("Hello " + name);
     }
 
+    // Created this method in feature101 branch - for Git demo
+    public static void grantAccess(String id) {
+        System.out.println("Employee ID " + id + " granted read-write access to delta directory.");
+    }
 
 }
